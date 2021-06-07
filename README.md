@@ -1,9 +1,8 @@
-# AIHW-People-with-disability-in-Australia-2018
+# Readme
 
-The purpose of this repository is to transform source data into a required format for data insight generation. The repository includes source data and Jupyter Notebook as well as the transformed data.
+The purpose of this repository is to store transformed data that will be used for insight generation. We saved the details of the process in 'data_transformation.ipynb' Jupyter Notebook.
 
-Source data "tables: Employment supplementary data tables, 2020” is part of the “People with disability in Australia” collection by the Australian Institute of Health and Welfare (AIHW). The data contains 12 data tables related to people with a disability and their engagement in labour force in Australia.
+## Data 
+Australian Institute of Health and Welfare  (AIHW) is a health and welfare statistics agency in Australia, and provides a wide range of health and welfare data collections. Data called “Data tables: Employment supplementary data tables, 2020” is a part of “People with disability in Australia” collection from the AIHW. This data contains information about people aged 15 and over living in households, by age group, gender, disability status, and labour force status in 2018.
 
-The Jupyter Notebook is a written Python program language that reads the youth unemployment data to transform into a required format for data insight generation.
-
-Cite the code: https://doi.org/10.5281/zenodo.4718423
+We transformed this data to an easy-to-process format and restructured it to a new file called “transformed_data.csv”. The transformation process is captured by a Jupyter Notebook called “data_transformation.ipynb”, open-source software that enables us to write and share program code. The Jupyter Notebook and the transformed data can be found in the Zenodo data repository.
